@@ -1,5 +1,8 @@
 # Telegram Bot Script in Python
-
+import asyncio
+import importlib
+import sys
+import config
 import telebot
 import openai
 import pymongo
