@@ -7,6 +7,5 @@ from pyrogram import filters
 
 load_dotenv()
 
-owners = getinv("owners","")
 API_TOKEN =getenv("API_TOKEN","")
 OPEN_AI = getenv("OPEN_AI","")
