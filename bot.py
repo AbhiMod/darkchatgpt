@@ -5,7 +5,7 @@ import openai
 import pymongo
 
 #Bot Api Token
-API_TOKEN = '5894209648:AAHHD6eCx8rDk-k624MBIC_as86Hh3zVjzQ'
+API_TOKEN = '6405292124:AAHJJnzcNfsn42_oHlOzG8XCXw7J9801g-0'
 #Openai Api Key
 openai.api_key="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"
 #Bot by krisanjit 
