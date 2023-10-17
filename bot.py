@@ -6,11 +6,12 @@ import config
 import telebot
 import openai
 import pymongo
+from config import API_TOKEN, OPEN_AI, owners
 
 #Bot Api Token
-API_TOKEN = '6405292124:AAHJJnzcNfsn42_oHlOzG8XCXw7J9801g-0'
+API_TOKEN = "{API_TOKEN}"
 #Openai Api Key
-openai.api_key="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"
+openai.api_key="{OPEN_AI}"
 #Bot by krisanjit 
 
 bot = telebot.TeleBot(API_TOKEN)
