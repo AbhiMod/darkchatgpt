@@ -6,7 +6,7 @@ import config
 import telebot
 import openai
 import pymongo
-from config import API_TOKEN, OPEN_AI, owners
+from config import API_TOKEN, OPEN_AI
 
 #Bot Api Token
 API_TOKEN = "{API_TOKEN}"
