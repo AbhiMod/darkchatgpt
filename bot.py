@@ -9,7 +9,7 @@ import pymongo
 from config import API_TOKEN, OPEN_AI
 
 #Bot Api Toke
-API_TOKEN = {API_TOKEN}
+API_TOKEN = "6405292124:AAHJJnzcNfsn42_oHlOzG8XCXw7J9801g-0"
 #Openai Api Key
 openai.api_key="{OPEN_AI}"
 #Bot by krisanjit 
