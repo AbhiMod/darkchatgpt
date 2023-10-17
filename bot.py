@@ -49,7 +49,7 @@ def authorize_user(message):
         username = message.from_user.username
         authorized_users.insert_one({"chat_id": chat_id, "username": username})
         bot.send_message(chat_id, """\
-Hello Sir, I am Deep GPT Ai.
+Hello Sir, I am ᴅᴇᴇᴘ ʙᴏᴛ GPT Ai.
 
 Developed For All Illigal Works
 I Able Make All Kind Of Hacking Tools
@@ -76,7 +76,7 @@ allowed_users = ["Mr_majnu72", "AM_YTBOTT", "Sanam_King"]
 @bot.message_handler(commands=['start'])
 def start_bot(message):
     if message.from_user.username in allowed_users:
-        bot.reply_to(message, "Hello! Welcome To Deep GPT!\n /help for cmds")
+        bot.reply_to(message, "Hello! Welcome To ᴅᴇᴇᴘ ʙᴏᴛ GPT!\n /help for cmds")
     else:
         bot.reply_to(message, "Sorry, you are not authorized to use this bot.\nYou Want auth To Use This Bot \nAsk To Admins Here \n『sᴀᴛʏᴀᴍ』 : @Mr_majnu72 \nᴀᴍʙᴏᴛ : @AM_YTBOTT\n\ntry to auth your id in our server to use : /authme")
 
@@ -102,7 +102,7 @@ def send_welcome(message):
   # bot.send_message(message.chat.id,message.text)
     if message.from_user.username in allowed_users:
         bot.reply_to(message, """\
-ðŸ’– Hello Sir, I am Deep GPT Ai.
+ðŸ’– Hello Sir, I am ᴅᴇᴇᴘ ʙᴏᴛ GPT Ai.
 
 Developed For All Illigal Works
 I Able Make All Kind Of Hacking Tools
@@ -121,7 +121,7 @@ TG :- @AM_YTBOTT\
 """)
     else:
         bot.reply_to(message, """\
-ðŸ’– Hello Sir, I am Worm GPT Ai.
+ðŸ’– Hello Sir, I am ᴅᴇᴇᴘ ʙᴏᴛ GPT Ai.
 
 Developed For All Illigal Works
 I Able Make All Kind Of Hacking Tools
