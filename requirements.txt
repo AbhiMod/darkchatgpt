@@ -1,0 +1,8 @@
+pyrogram==2.0.100
+pymongo
+apscheduler
+pytz
+TgCrypto
+pymongo
+openai
+telebot
